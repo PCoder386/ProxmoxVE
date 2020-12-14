@@ -1,4 +1,4 @@
-ProxmoxVE API Client2
+ProxmoxVE API Client
 ====================
 
 This **PHP 5.5+** library allows you to interact with your Proxmox server via API.
@@ -13,7 +13,6 @@ This **PHP 5.5+** library allows you to interact with your Proxmox server via AP
 
 **Looking for a PHP 5.3 library version?** Search through the [releases](https://github.com/ZzAntares/ProxmoxVE/releases) one that fits your needs, I recommend using the [2.1.1](https://github.com/ZzAntares/ProxmoxVE/releases/tag/v2.1.1) version.
 
-
 Installation
 ------------
 
@@ -22,7 +21,7 @@ Recommended installation is using [Composer], if you do not have [Composer] what
 In the root of your project execute the following:
 
 ```sh
-$ composer require zzantares/proxmoxve ~4.0
+composer require zzantares/proxmoxve ~4.0
 ```
 
 Or add this to your `composer.json` file:
@@ -36,10 +35,10 @@ Or add this to your `composer.json` file:
 ```
 
 Then perform the installation:
-```sh
-$ composer install --no-dev
-```
 
+```sh
+composer install --no-dev
+```
 
 Usage
 -----
@@ -77,7 +76,6 @@ $allNodes = $proxmox->get('/nodes');
 print_r($allNodes);
 ```
 
-
 Sample output:
 
 ```php
@@ -105,12 +103,10 @@ Array
 )
 ```
 
-
 Want to know more nifty tricks?
 -------------------------------
 
 Checkout our [wiki](https://github.com/ZzAntares/ProxmoxVE/wiki).
-
 
 Docs
 ----
@@ -130,18 +126,15 @@ Consult the [ProxmoxVE API] article at the [Proxmox wiki].
 See the project's [wiki](https://github.com/ZzAntares/ProxmoxVE/wiki) for a more
 detailed documentation, it's all in there I swear it... I think.
 
-
 License
 -------
 
 This project is released under the MIT License. See the bundled [LICENSE] file for details.
 
-
 Want to contribute?
 --------------------
 
 Thank you! Take a look at the [CONTRIBUTING], you could easily set up a development environment to get you started in no time!
-
 
 [LICENSE]:./LICENSE
 [CONTRIBUTING]:./CONTRIBUTING.md
