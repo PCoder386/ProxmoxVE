@@ -1,4 +1,4 @@
-ProxmoxVE API Client
+ProxmoxVE API Client2
 ====================
 
 This **PHP 5.5+** library allows you to interact with your Proxmox server via API.
